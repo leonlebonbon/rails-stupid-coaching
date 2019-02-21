@@ -1,0 +1,57 @@
+$gray: #F4F4F4;
+
+body {
+  background: $gray;
+}
+
+ul {
+ list-style-type: none;
+ padding-right: 30px;
+ }
+
+ #box-you {
+  color: #5d5d5a;
+  width: 50%;
+  border-left: 4px solid $gray;
+  padding-left: 20px;
+  padding: 10px;
+ }
+
+#box-coach {
+  background: #FFFED9;
+  color: #5d5d5a;
+  margin-top: 20px;
+  width: 50%;
+  border-left: 4px solid $gray;
+  padding-left: 20px;
+  padding: 10px;
+ }
+
+ p {
+  font-style: italic;
+ }
+
+ h5 {
+  color: white;
+  text-decoration: none;
+  a {
+  text-decoration: none;
+  color: white;
+  }
+  a:hover {
+  text-decoration: none;
+  color: white;
+  }
+ }
+
+form {
+  justify-content: center;
+  margin-top: 55px;
+}
+
+
+#ask-new {
+  margin-left: 130px;
+  margin-top: 30px;
+}
+

@@ -1,7 +1,20 @@
+<div class="container text-center">
 <h1>Stupid Coaching</h1>
+</div>
+<div class="container">
 <ul>
-  <% @questions.each do |question| %>
-    <li><%= question %></li>
-  <% end %>
+  <li id="box-you">
+    <%= @user_input %>
+    <p>-You</p>
+  </li>
+  <li id="box-coach">
+    <strong><%= @answer %></strong>
+    <p>-Your Coach</p>
+  </li>
 </ul>
-<%= link_to "Ask a new question", ask_path %>
+</div>
+<div class="container" id="ask-new">
+    <%= link_to "Ask a new question", ask_path, class:"btn btn-info"%>
+</div>
+
+

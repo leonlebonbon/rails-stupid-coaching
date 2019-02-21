@@ -1,7 +1,8 @@
-<h1>Stupid Coaching</h1>
-<form action="???">
-  <label for=""><h3>Ask your stupid coach anything</h3></label>
-  <input type="text" name="???" class="form-control">
-  <input type="submit" value="Ask!" class="form-control">
-</form>
-
+<div class="container text-center">
+  <h1>Stupid Coaching</h1>
+  <h4>Ask your stupid coach anything</h4>
+  <form action="<%= answer_path %>" class="form-inline">
+    <input type="text" name="user_input" class="form-control" id="user_input">
+    <input type="submit" value="Ask!" class="btn btn-info form-control">
+  </form>
+</div>
